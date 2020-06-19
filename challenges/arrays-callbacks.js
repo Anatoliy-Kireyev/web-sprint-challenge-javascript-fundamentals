@@ -24,7 +24,7 @@ of each animal. displayNames will be an array of strings, and each string should
 
 const displayNames = [];
 zooAnimals.forEach(function(element){
-  return displayNames.push(element.animal_name + element.scientific_name);
+  return displayNames.push(`Name:${element.animal_name}  Scientific: ${element.scientific_name}`);
 });
 
 
@@ -100,11 +100,11 @@ const add = (a, b) => {
   };
   const greeting = (a, b) => {
     return `Hello ${a} ${b}, nice to meet you!`
-  };
+  }
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
- console.log(consume(2, 2, add)); // 4
- console.log(consume(10, 16, multiply)); // 160
- console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+// console.log(consume(2, 2, add)); // 4
+// console.log(consume(10, 16, multiply)); // 160
+// console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
 
@@ -114,4 +114,4 @@ const add = (a, b) => {
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
+  
