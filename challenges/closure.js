@@ -17,8 +17,16 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+//"Because fuctions have access to outside information, while at the same time you can not access inside information from outside the function"
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+//function summation(num) {
+//const counter = 0
+//for(let i = 0; i < num; i++) {
+ // return counter.(i)
+//}
+//}
+//console.log(summation(5))
